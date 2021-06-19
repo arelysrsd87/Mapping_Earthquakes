@@ -179,7 +179,10 @@ style: styleInfo,
 })
 .addTo(majorEarthquakes);
 
+// 8. Add the major earthquakes layer to the map.
 majorEarthquakes.addTo(map);
+
+// 9. Close the braces and parentheses for the major earthquake data.
 });
 
   // Here we create a legend control object.
